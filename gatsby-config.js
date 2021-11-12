@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "pragatiNEW",
+    title: "Pragati Nagar Udyami NGO",
+    description: `Strength Trust Sincerity Faith Growth Confidence.`,
+    author: `ManishBoro`,
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -9,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        icon: "src/images/LOGO.png",
       },
     },
   ],

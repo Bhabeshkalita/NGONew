@@ -1,0 +1,51 @@
+.intern{
+    text-align: center;
+    // margin: 3rem 0;
+    padding: 1rem 0rem;
+    width: 90%;
+    margin:5rem auto;
+    // background-color: red;
+    &_h2{
+        color: rgb(39, 39, 39);
+        font-size: 3rem;
+        font-family: 'Dongle', sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        letter-spacing: 0.5px;
+        color: rgb(85, 87, 87);
+    }
+    &_p{
+        font-size: 1.8rem ;
+        color: grey;
+        margin-bottom: 2rem;
+        line-height: 2.5rem;
+    }
+    &_button{
+        padding: 0.5rem 1rem;
+        background: transparent;
+        border: 1px solid rgb(83, 79, 79);
+        & a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: rgb(75, 71, 71);
+            
+        }
+    }
+    @media only screen and (max-width:1024px){
+        &_h2{
+            font-size: 2.4rem;
+            margin-bottom: 1.5rem;
+        }
+        &_p{
+            font-size: 1.4rem ;
+            margin-bottom: 1.5rem;
+            line-height: 2rem;
+        }
+        &_button{
+            & a{
+                font-size: 1rem;
+                
+            }
+        }
+    }
+}
