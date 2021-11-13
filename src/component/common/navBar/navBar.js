@@ -24,7 +24,7 @@ const NavBar = ({ title }) => {
             </div>
             <div className={scroll > 0 ?classes.navscroll_page :classes.nav_page}>
                 <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/aboutUs'>About Us</Link></div>
-                <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/intern'>Intern With Us</Link></div>
+                <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/internWithUs'>Intern With Us</Link></div>
                 <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/donate'>Donate</Link></div>
                 <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/campaigns'>Campaigns</Link></div>
                 <div className={scroll > 0 ?classes.navscroll_page_link :classes.nav_page_link}><Link to='/contactUs'>Contact Us</Link></div>
