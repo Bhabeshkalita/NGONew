@@ -1,0 +1,17 @@
+.allCampaign{
+    margin: 3rem;
+    &_heading{
+        color: grey;
+        margin-bottom: 2rem;
+        text-align: center;
+        &_h3{
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+    }
+    &_card{
+        width: 80%;
+        margin: auto;
+    }
+}
